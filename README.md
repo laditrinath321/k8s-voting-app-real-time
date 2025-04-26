@@ -10,8 +10,17 @@ A fully containerized, real-time, auto-scaling voting system designed to handle 
 
 ## 📚 Project Architecture
 
-![Voting App Architecture Diagram](https://your-image-link.com/architecture-diagram.png)  
-*(Insert a simple architecture image showing microservices, Redis, PostgreSQL, Kubernetes Pods, LoadBalancer)*
+### Voting App - Kubernetes Architecture
+
+![Voting App Architecture](https://raw.githubusercontent.com/your-username/your-repo/main/assets/voting-app-architecture.jpeg)
+
+> 🛠 Voting App consists of microservices deployed as individual pods on Kubernetes:
+> - **Voting App (Python)** — captures votes
+> - **Result App (Node.js)** — displays results
+> - **Redis** — acts as in-memory cache
+> - **PostgreSQL** — stores persistent votes
+> - **Worker Service (.NET Core)** — syncs data from Redis to PostgreSQL
+
 
 ---
 
