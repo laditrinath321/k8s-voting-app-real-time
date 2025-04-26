@@ -12,7 +12,7 @@ A fully containerized, real-time, auto-scaling voting system designed to handle 
 
 ### Voting App - Kubernetes Architecture
 
-![Voting App Architecture](https://raw.githubusercontent.com/your-username/your-repo/main/assets/voting-app-architecture.jpeg)
+![Voting App Architecture](https://github.com/laditrinath321/k8s-voting-app-real-time/blob/main/Architecture_diagram.jpeg)
 
 > 🛠 Voting App consists of microservices deployed as individual pods on Kubernetes:
 > - **Voting App (Python)** — captures votes
